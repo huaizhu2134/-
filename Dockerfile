@@ -15,7 +15,7 @@ COPY . .
 RUN if [ ! -f "private.key" ]; then echo "Error: private.key file not found" && exit 1; fi
 
 
-# EXPOSE 8080
+EXPOSE 80
 
 
 CMD ["npm", "run", "dev"]
