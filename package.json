@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "miniprogram-ci preview --appid wx3e15247da0919b23 --project-path . --private-key-path private.key --upload-version 1.0.0"
+  },
+  "dependencies": {
+    "weui-miniprogram": "^1.5.6"
+  },
+  "devDependencies": {
+    "miniprogram-ci": "^2.1.14"
+  }
+}
